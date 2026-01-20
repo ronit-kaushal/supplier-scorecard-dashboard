@@ -59,13 +59,6 @@ This PDF shows selected ranking scenarios (1, 3, 5) to demonstrate how the repor
 
 ---
 
-## 📁 Repository Contents
-
-├── Supplier_Scorecard_Dashboard.pdf
-└── README.md
-
----
-
 ## Notes
 
 - All data used is **synthetic / anonymized**
@@ -79,5 +72,5 @@ This PDF shows selected ranking scenarios (1, 3, 5) to demonstrate how the repor
 **Ronit Kaushal**  
 Data Analytics & Business Intelligence  
 
-📧 Email: ronitk95@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/ronit-kaushal-a40609177/
+Email: ronitk95@gmail.com  
+LinkedIn: https://www.linkedin.com/in/ronit-kaushal-a40609177/
