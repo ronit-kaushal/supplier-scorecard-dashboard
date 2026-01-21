@@ -1,69 +1,91 @@
 # Supplier Scorecard Dashboard
 
-**Author:** Ronit Kaushal  
 **Primary Tools:** Power BI · DAX · Power Query  
 **Data:** Synthetic / Anonymized  
 
 ---
 
-## Project Overview
+## 1. Business Problem
 
-An **executive-level Supplier Scorecard Dashboard** designed to evaluate staffing vendors across performance, quality, and SLA-driven KPIs.
-
-The dashboard enables leadership to **compare suppliers objectively**, identify operational risks, and support data-driven vendor governance using a standardized scoring framework.
+Staffing organizations often work with multiple vendors, making it difficult to objectively evaluate supplier performance across responsiveness, quality, SLA adherence, and delivery outcomes. Without a standardized scorecard, supplier reviews can become subjective and reactive, limiting effective vendor governance.
 
 ---
 
-## Business Objectives
+## 2. Objective
 
-- Score suppliers across **response, quality, and delivery metrics**
-- Enable **comparative supplier ranking**
-- Highlight performance gaps and improvement areas
-- Track SLA adherence and operational efficiency
-- Support vendor performance reviews with data-backed insights
+Design an executive-ready **Supplier Scorecard Dashboard** to:
 
----
-
-## Key Features
-
-- Overall supplier score (out of 100)  
-- Supplier ranking within peer group  
-- KPI-level scoring with thresholds & targets  
-- Activity snapshot (postings, responses, starts, finishes)  
-- Market share & efficiency indicators  
-- Executive-ready, neutral scorecard layout  
+- Enable objective comparison of staffing vendors using standardized KPIs  
+- Identify high-performing and underperforming suppliers  
+- Support data-driven supplier governance and quarterly performance reviews  
+- Highlight operational risks and improvement opportunities  
 
 ---
 
-## Skills Demonstrated
+## 3. Dataset Overview
 
-- KPI scoring logic using DAX  
-- Comparative ranking & percentile analysis  
-- Metric normalization & threshold-based evaluation  
-- Executive scorecard design principles  
-- Business-focused analytical storytelling  
+- Synthetic dataset replicating multi-vendor staffing operations  
+- Includes job postings, supplier responses, submittals, starts, finishes, and SLA timestamps  
+- Structured to support performance scoring, ranking, and trend analysis  
+
+---
+
+## 4. KPIs & Metrics
+
+- Overall Supplier Score (out of 100)  
+- Response Rate and First Response Time  
+- Submittal-to-Start % and Successful Finish %  
+- Failure-to-Start %  
+- Market Share and Activity Volume  
+- SLA Adherence and Efficiency Indicators  
+
+---
+
+## 5. Approach & Tools
+
+- Designed a KPI-based **supplier scoring framework** using weighted performance metrics  
+- Normalized metrics and applied threshold-based scoring logic using DAX  
+- Implemented comparative ranking and peer-level analysis across suppliers  
+- Built an executive-neutral scorecard layout focused on clarity and governance  
+- Used Power Query to prepare analytics-ready datasets  
+
+---
+
+## 6. Key Insights (Illustrative)
+
+- Supplier performance varies significantly across responsiveness and delivery quality  
+- High-volume suppliers are not always top performers on SLA and start success  
+- Ranking views help quickly identify consistent performers and high-risk vendors  
+
+---
+
+## 7. Business Impact / Decisions Enabled
+
+- Supports structured supplier performance reviews and governance discussions  
+- Enables leadership to identify suppliers for growth, remediation, or rationalization  
+- Improves transparency and objectivity in vendor performance evaluation  
 
 ---
 
 ## Live Interactive Dashboard
 
-**[Open Power BI Dashboard (Publish to Web)](https://app.powerbi.com/view?r=eyJrIjoiZmMxMTFhNzEtYTkxYS00N2M5LWFkZTEtZTMyYzc4ZTI2NTQ3IiwidCI6ImNlOTk3M2JmLTc4NDMtNDM2Zi1hYmZkLTk2MGQ0OTM1MTcxNiJ9)**
+[Open Power BI Dashboard (Publish to Web)](https://app.powerbi.com/view?r=eyJrIjoiZmMxMTFhNzEtYTkxYS00N2M5LWFkZTEtZTMyYzc4ZTI2NTQ3IiwidCI6ImNlOTk3M2JmLTc4NDMtNDM2Zi1hYmZkLTk2MGQ0OTM1MTcxNiJ9)
 
 ---
 
 ## Dashboard Preview (PDF)
 
-This PDF shows selected ranking scenarios (1, 3, 5) to demonstrate how the report dynamically responds to parameter changes.
+This PDF demonstrates selected supplier ranking scenarios (1, 3, 5) to show how rankings and KPIs dynamically respond to parameter changes.
 
-**[View Dashboard (PDF)](./Supplier_Scorecard_Dashboard.pdf)**
+[View Dashboard (PDF)](./Supplier_Scorecard_Dashboard.pdf)
 
 ---
 
 ## Notes
 
-- All data used is **synthetic / anonymized**
-- The live dashboard is shared via **Power BI Publish to Web**
-- Emphasis is on **supplier performance evaluation and KPI frameworks**
+- All data used is **synthetic and anonymized**
+- Dashboard is shared via **Power BI Publish to Web**
+- Focus is on **supplier performance evaluation, scoring logic, and governance frameworks**
 
 ---
 
